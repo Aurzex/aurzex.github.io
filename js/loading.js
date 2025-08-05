@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",(function(){var t=document.getElementById("Loadanimation");if(t)var e=setInterval((function(){t.style.opacity||(t.style.opacity=1),t.style.opacity>0?t.style.opacity-=.05:(clearInterval(e),t.style.display="none")}),25)}));
+document.addEventListener("DOMContentLoaded",function(){var t=document.getElementById("Loadanimation");if(t)var e=setInterval(function(){t.style.opacity||(t.style.opacity=1),t.style.opacity>0?t.style.opacity-=.05:(clearInterval(e),t.style.display="none")},25)});
